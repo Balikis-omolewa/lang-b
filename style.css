@@ -9,8 +9,6 @@ body{
     background-color: #fff;
     color: #0b0b0b;
     font-family: 'Ubuntu', sans-serif;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
-    overflow-y: hidden; /* Prevent horizontal scrolling */
 }
 .nav{
     display: flex;
