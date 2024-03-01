@@ -1,0 +1,371 @@
+body{
+    width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+/* Default styles for all screen sizes */
+/* Header styles */
+.nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav .logo {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 999px){
+    
+/* Hero section styles */
+.hero {
+    margin-top: 8%;
+}
+
+.hero-content h1 {
+    font-size: 35px;
+}
+.hero-content h1 br{
+    display: none;
+}
+
+.hero-content p {
+    font-size: 16px;
+}
+.hero-content p br{
+    display: none;
+}
+.hero-content .button {
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+}
+
+.hero-content .button .parent-cu {
+    width: 40%; /* Take full width on smaller screens */
+    margin-bottom: 10px; /* Add some spacing between buttons */
+}
+.hero-content .button .cu {
+    width: 100%; /* Take full width on smaller screens */
+    font-size: 16px;
+}
+.hero-img {
+    width: 100%;
+}
+
+/* Language section styles */
+.lang h2 {
+    font-size: 24px;
+}
+
+.lang .container .card-block {
+    display: block;
+    align-items: center;
+    justify-content: center;
+   width: 100%; 
+}
+.lang .container br{
+    display: none;
+}
+.lang .container .card-block .col-6 {
+    width: 100%;
+    margin: 20px;
+}
+.lang .container .card-block .card .col-6 img {
+width: 100%;
+height: 100vh !important;
+
+}
+.lang .container .card-block .card .card-body h3 {
+    padding-left: 5%;
+}
+.lang .container .card-block .card .card-body p {
+    padding-left: 5%;
+}
+.lang .container .card-block .card .card-body .d-btn {
+    margin-left: 3%;
+}
+.card-body h3 {
+    font-size: 20px;
+}
+
+.card-body p {
+    font-size: 14px;
+}
+
+.card-body .row .learn0,
+.card-body .row .learn {
+    padding: 5px 15px;
+}
+
+/* Testimonials section styles */
+.testmonials .container .listen{
+    font-size: 30px; 
+  }
+.testmonials .container .row {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 0;
+}
+.testmonials .container .col .testi br{
+    gap: 0;
+    display: none;
+}
+.testmonials .container .col .testi video {
+    height: 300px;
+    gap: 0;
+}
+
+/* Frequently asked questions section styles */
+@media (max-width: 999px){
+    section .container{
+        margin: 10px;
+        width: 100%;
+    }
+    .freq h3 {
+        font-size: 28px;
+    }
+    
+    .freq .details summary {
+        padding: 5px;
+    }
+    
+    .freq .details p {
+        padding: 5px;
+    }
+    
+}
+
+/* Certified section styles */
+.certified span {
+    font-size: 14px;
+}
+
+.certified h3 {
+    font-size: 30px;
+}
+.certified .second-2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.certified .second-2 h4 {
+    font-size: 24px;
+    padding: 10px;
+}
+.certified .second-2 .second-cu {
+    width: 50%;
+    margin: 20px;
+    padding: 30px;
+}
+
+.certified .second-2 .second-cu .su {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+/* Tutors section styles */
+.tutors h2 {
+    font-size: 23px;
+}
+
+.tutors p {
+    font-size: 16px;
+}
+.tutors .container .row {
+    display: block;
+    justify-content: center;
+    align-items: center;
+   
+}
+.tutors .container .row .col-4 {
+    width: 100%;
+    height: 100%;
+    margin: 20px 10px ;
+}
+
+.tutors .container .card-body h3 {
+    font-size: 24px;
+}
+
+.tutors .container .card-body p {
+    font-size: 16px;
+}
+
+.tutors .container .card-body .row .learn0 {
+    padding: 5px 25px;
+}
+
+/* About section styles */
+.about .container .row{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about .about-content span {
+    font-weight: 400;
+}
+
+.about .about-content h4 {
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+}
+
+.about .about-content .about-btn {
+    width: 50%;
+}
+
+/* Footer section styles */
+.footer .container-fluid .row{
+    display: block;
+}
+.footer .container-fluid .row .col-2{
+    margin-top: 5%;
+}
+.footer .container-fluid .row .col-2 p{
+    font-size: 16px;
+}
+.footer .container-fluid .menu-links h4 br{
+    display: none;
+}
+.footer .container-fluid .menu-links h4 {
+    font-size: 20px !important;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.footer .container-fluid .menu-links .col-4 i{
+    font-size: 18px;
+    padding: 5px;
+}
+.footer .logo {
+    font-size: 2rem;
+}
+
+}
+
+/* Media queries for responsiveness */
+
+@media (min-width: 768px) {
+    /* Adjust styles for medium screens and above */
+    .nav {
+        flex-direction: row;
+    }
+
+    .nav .logo {
+        margin-bottom: 0;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    .hero-content h1 {
+        font-size: 55px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .hero-content .button {
+        flex-direction: row;
+    }
+
+    .hero-img {
+        width: 600px;
+    }
+
+    .lang .container .card {
+        width: 48%;
+    }
+    .card-body h3 {
+        font-size: 28px;
+    }
+
+    .card-body p {
+        font-size: 16px;
+    }
+
+    .card-body .row .learn0,
+    .card-body .row .learn {
+        padding: 10px 20px;
+    }
+
+    .testmonials .container .col .testi video {
+        height: 500px;
+        gap: 0;
+    }
+
+    .certified h3 {
+        font-size: 45px;
+    }
+
+    .certified .second-2 h4 {
+        font-size: 35px;
+    }
+
+    .certified .second-2 .second-cu .su {
+        padding: 15px 30px;
+    }
+
+    .tutors h2 {
+        font-size: 1.5rem;
+    }
+
+    .tutors p {
+        font-size: 1rem;
+    }
+
+    .tutors .container .card {
+        width: 30%;
+    }
+
+    .tutors .container .card-body h3 {
+        font-size: 32px;
+    }
+
+    .tutors .container .card-body p {
+        font-size: 16px;
+    }
+
+    .tutors .container .card-body .row .learn0 {
+        padding: 10px 20px;
+    }
+
+    .about h4 {
+        font-size: 28px;
+    }
+
+    .about .about-btn {
+        padding: 10px 20px;
+    }
+
+    .footer .logo {
+        font-size: 3rem;
+    }
+
+    .menu-links h4 {
+        font-size: 28px;
+    }
+
+    .menu-links i {
+        font-size: 2rem;
+        padding: 8px;
+    }
+}
+
+/* Add more media queries as needed for larger screens */
